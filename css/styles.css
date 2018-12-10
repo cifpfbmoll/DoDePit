@@ -1,0 +1,302 @@
+body {
+    font-family:"Poppins",sans-serif;
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.62em;
+    padding:0px 0px 40px 0px;
+    z-index:0;
+}
+
+h1,h2,h3,h4,h5 {
+    color: #222;
+    line-height: 1.2em !important;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+/*Rows y cols*/
+.row-header{
+    margin:0px auto;
+    padding:0px;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+    border-bottom: 1px ridge;
+    /*min-height:400px;*/
+}
+
+.noRaya {
+    
+    border-bottom: none;
+}
+
+.margenCol {
+    padding: 0px;
+}
+
+
+/*Helpers generales*/
+.amarillo { /*cambiar*/
+    color: #51bdcb;
+}
+
+.textoBlanco {
+    color:#fbf9f5;
+}
+
+.ovalWhite {    
+    border-style: dashed;
+    border-width: 2px;
+    border-color: white;
+    margin: 5px 5px 5px 5px;
+    padding: 3px 15px 5px 15px;
+    border-radius: 12px;
+}
+
+.padCinco {
+    padding: 5px;
+}
+
+/*Paleta quitar*/
+paleta {
+    color: #f6af33;
+    color: #052a48;
+    color: #51bdcb;
+    color: #96cc54;
+    color: #ec008c;
+    background-color: #052a48;
+    background-color: #51bdcb;
+    background-color: #96cc54;
+    background-color: #ec008c;
+    background-color: #f6af33;
+}
+/*--------quitar-------*/
+
+/*barras de navegación*/
+.navbar-collapse {
+    /*Elementos navbar a la derecha*/
+    flex-grow:0; 
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-dark {
+    background-color: #ec008c;
+}
+
+/*Jumbotron*/
+#jumbo1 {
+    color:black;
+}
+
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-position: center center;
+	color: floralWhite;
+    background-color: white;
+}
+
+#fondoJumboHome {
+    background-image: url("../img/loc1.jpg");
+	background-position: left top;
+}
+
+#fondoJumboMenu {
+    background-image: url("../img/eat1.jpg");
+}
+
+#fondoJumboBeber {
+    background-image: url("../img/drink4.jpg");
+}
+
+#fondoJumboEvent {
+    background-image: url("../img/ev7.jpg");
+	background-position: left left;
+}
+
+#fondoJumboHora {
+    background-image: url("../img/drink1.jpg");
+}
+
+#fondoJumboContact {
+    background-image: url("../img/loc2.jpg");
+	background-position: center top;
+}
+
+
+/*Ventana modal*/
+#maps2, .modal-header {    
+    background-color:#ec008c;
+    border-color: #ec008c;
+}
+
+.modal-header h3, .modal-header button {
+    color: white;
+}
+
+#maps {
+    border-color: #51bdcb;
+    background-color: #51bdcb;
+}
+
+#maps:focus, #maps2:focus {
+    outline:none;
+    box-shadow: none;
+}
+
+.close:hover {
+    color: white;
+    opacity: 1;
+}
+
+/*Botones de la carta*/
+.botonMenu {
+    border:none; 
+    background-color:transparent;
+    cursor: pointer;
+}
+
+.botonMenu:focus {
+    outline:none;
+}
+
+
+/*Tablas de la carta*/
+.list-group-item {
+    border: none;
+}
+
+table {
+    color: #51bdcb;
+    font-weight: 450;
+}
+
+.table td {
+    border-top: none;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.panel-group, .oval {
+    border-style: dashed;
+    border-width: 3px;
+    border-color: #51bdcb;
+    margin: 10px;
+    padding: 3px 15px 5px 15px;
+    border-radius: 12px;
+}
+
+.oval {    
+    border-color: #51bdcb;
+    padding: 20px 0px 20px 0px;
+}
+
+/*Footer*/
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+
+.footer{
+    background-color:#052a48;
+    margin:0px auto;
+    padding: 20px 0px 0px 0px;
+}
+
+/*Parallax*/
+figure {
+    margin: 0 0 0rem;
+}
+
+/*Post it*/
+#perro, #srperro {
+    color:#000;
+    /*
+    background:#ffc;
+    */    
+    background-color:#052a48;
+    display:block;
+    position: relative;
+    top: -50px;
+    left: -20px;
+    max-width:150%;
+    /*padding:1em;*/
+    -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+    -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    -moz-transition:-moz-transform .15s linear;
+    -o-transition:-o-transform .15s linear;
+    -webkit-transition:-webkit-transform .15s linear;
+}
+
+.sticker {
+
+}
+
+#srperro{
+    max-width:100%;
+    top: 0;
+    left: 0;
+}
+
+#perro,  #srperro{
+  -webkit-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
+  -moz-transform:rotate(-6deg);
+}
+
+@media screen and (min-width: 671px) {
+    #pegatina {/*quitar*/
+        margin-left: -40px;
+    }
+
+    .rowEstrecha {
+        margin: 4vw 10vw 4vw 10vw;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    #colSrperro {
+        padding: 8vw;    
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #divHorarioFoot {
+        padding-bottom: 2em;
+    }
+
+    /*Stickers*/
+    #perro:hover,  #srperro:hover, #perro:focus,  #srperro:focus{
+        box-shadow:10px 10px 7px rgba(0,0,0,.7);
+        -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+        -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+        -webkit-transform: scale(1.25);
+        -moz-transform: scale(1.25);
+        -o-transform: scale(1.25);
+        position:relative;
+        z-index:25; 
+    }
+}
+
+/*SlideShow*/
+
+/*1*/
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+/*2*/
