@@ -58,25 +58,20 @@
     </nav>
 
     <!--Barra fija bottom-->
-    <nav class="navbar navbar-dark navbar-expand-sm fixed-bottom">
+    <nav class="navbar navbar-dark fixed-bottom">
         <div class="container-fluid">
-            <ul class="nav navbar-nav" style="flex-direction: row;">
-                <!--quitar-->
-                <li style="margin-right:25px"><a class="mr-auto" href="index.html"><img src="img/logo2.png" height="30"
-                            width="30"></a>
-                    <!--Puede ser span class="fa fa-phone"-->
+            <ul class="nav">
+                <li style="margin-right:25px"><a href="index.html"><img src="img/logo2.png" height="30" width="30"></a>
                 </li>
-                <li style="margin-right:25px"><a class="mr-auto" href="#">
-                        <i class="fa fa-arrow-up fa-2x textoBlanco"></i></a></li>
+                <li><a href="#">
+                        <i class="fa fa-arrow-up fa-2x text-white"></i></a></li>
             </ul>
-            <ul class="nav navbar-nav navbar-right" style="flex-direction: row;">
-                <!--quitar-->
-                <li style="margin-right:25px"><a class="mr-auto" href="tel:630037625">
-                        <i class="fa fa-phone fa-2x textoBlanco"></i></a>
-                    <!--Puede ser span class="fa fa-phone"-->
+            <ul class="nav navbar-right">
+                <li style="margin-right:30px"><a href="tel:651701293">
+                        <i class="fa fa-phone fa-2x text-white"></i></a>
                 </li>
-                <li style="margin-right:25px"><a class="mr-auto" href="#">
-                        <i class="fa fa-map-marker fa-2x textoBlanco" id="myBtn"></i></a>
+                <li><a href="#">
+                        <i class="fa fa-map-marker fa-2x text-white" id="myBtn"></i></a>
                 </li>
             </ul>
         </div>
@@ -107,25 +102,26 @@
         <div class="row align-items-center">
             <!--class well NO va-->
             <div div class="col-12">
-                <h4 class="text-center">Our Lipsmacking Culinary Creations</h3>
-                    <p class="text-center">A unique combination of Thai pizza (pancake) and Italian pizza, topped with
-                        Cerignola olives, ripe
-                        vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+                <h4 class="text-center">Nostra ultrices vitae</h3>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipiscing elit dignissim ultricies, nisl sodales cras purus
+                        fusce nascetur diam massa pharetra, imperdiet nostra ultrices vitae eros fames id hac. Nunc ad
+                        gravida vulputate ut nascetur eleifend montes pellentesque eget egestas erat, vestibulum aliquet
+                        tristique sociosqu praesent faucibus porta nullam non rhoncus dignissi.</p>
             </div>
         </div>
 
         <div class="row rowEstrecha">
-            <div class="col-12 col-lg-7">
-                <h3>Vinos</h3>
+            <div class="col-12 col-lg-7 margenCarta noPadding">
+                <h3>Para picar...</h3>
                 <div class="panel-group">
                     <div class="panel panel-default">
-                        <button class="btn-block botonMenu text-left" data-toggle="collapse" data-target="#vinoBlanco"
+                        <button class="btn-block botonMenu text-left" data-toggle="collapse" data-target="#c1"
                             class="panel-heading">
                             <h4 class="panel-title">
-                                <h5>Blancos <i class="fa fa-plus amarillo"></i></h5>
+                                <h5>Ensaladas <i class="fa fa-plus amarillo"></i></h5>
                             </h4>
                         </button>
-                        <div id="vinoBlanco" class="panel-collapse collapse">
+                        <div id="c1" class="panel-collapse collapse">
                             <div class="table-responsive">
                                 <table class="table">
                                     <tbody>
@@ -145,13 +141,39 @@
                 </div>
                 <div class="panel-group">
                     <div class="panel panel-default">
-                        <button class="btn-block botonMenu text-left" data-toggle="collapse" data-target="#vinoTinto2"
+                        <button class="btn-block botonMenu text-left" data-toggle="collapse" data-target="#c2"
                             class="panel-heading">
                             <h4 class="panel-title">
-                                <h5>Tintos <i class="fa fa-plus amarillo"></i></h5>
+                                <h5>Quesos <i class="fa fa-plus amarillo"></i></h5>
                             </h4>
                         </button>
-                        <div id="vinoTinto2" class="panel-collapse collapse">
+                        <div id="c2" class="panel-collapse collapse">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td>Viña salceda</td>
+                                            <td class="text-right">29$</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ánima Negra</td>
+                                            <td class="text-right">49$</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-group">
+                    <div class="panel panel-default">
+                        <button class="btn-block botonMenu text-left" data-toggle="collapse" data-target="#c3"
+                            class="panel-heading">
+                            <h4 class="panel-title">
+                                <h5>Embutidos <i class="fa fa-plus amarillo"></i></h5>
+                            </h4>
+                        </button>
+                        <div id="c3" class="panel-collapse collapse">
                             <div class="table-responsive">
                                 <table class="table">
                                     <tbody>
@@ -170,22 +192,22 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-5">
-                <img src="img/vermut.JPG" class="img-fluid" style="display: block; margin-left: auto; margin-right: auto;">
+            <div class="col-12 col-lg-5 margenCarta">
+                <img src="img/eat9.jpg" class="img-fluid" style="display: block; margin-left: auto; margin-right: auto;">
             </div>
         </div>
         <div class="row rowEstrecha">
-            <div class="col-12 col-lg-7">
-                <h3>Vinos</h3>
+            <div class="col-12 col-lg-7 margenCarta noPadding">
+                <h3>Platos</h3>
                 <div class="panel-group">
                     <div class="panel panel-default">
-                        <button class="btn-block botonMenu text-left" data-toggle="collapse" data-target="#vinoBlanco2"
+                        <button class="btn-block botonMenu text-left" data-toggle="collapse" data-target="#c4"
                             class="panel-heading">
                             <h4 class="panel-title">
-                                <h5>Blancos <i class="fa fa-plus amarillo"></i></h5>
+                                <h5>Tablas <i class="fa fa-plus amarillo"></i></h5>
                             </h4>
                         </button>
-                        <div id="vinoBlanco2" class="panel-collapse collapse">
+                        <div id="c4" class="panel-collapse collapse">
                             <div class="table-responsive">
                                 <table class="table">
                                     <tbody>
@@ -205,13 +227,39 @@
                 </div>
                 <div class="panel-group">
                     <div class="panel panel-default">
-                        <button class="btn-block botonMenu text-left" data-toggle="collapse" data-target="#vinoTinto"
+                        <button class="btn-block botonMenu text-left" data-toggle="collapse" data-target="#c5"
                             class="panel-heading">
                             <h4 class="panel-title">
-                                <h5>Tintos <i class="fa fa-plus amarillo"></i></h5>
+                                <h5>Carne <i class="fa fa-plus amarillo"></i></h5>
                             </h4>
                         </button>
-                        <div id="vinoTinto" class="panel-collapse collapse">
+                        <div id="c5" class="panel-collapse collapse">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td>Viña salceda</td>
+                                            <td class="text-right">29$</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ánima Negra</td>
+                                            <td class="text-right">49$</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-group">
+                    <div class="panel panel-default">
+                        <button class="btn-block botonMenu text-left" data-toggle="collapse" data-target="#c6"
+                            class="panel-heading">
+                            <h4 class="panel-title">
+                                <h5>Bocadillos <i class="fa fa-plus amarillo"></i></h5>
+                            </h4>
+                        </button>
+                        <div id="c6" class="panel-collapse collapse">
                             <div class="table-responsive">
                                 <table class="table">
                                     <tbody>
@@ -230,8 +278,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-5">
-                <img src="img/vermut.JPG" class="img-fluid" style="display: block; margin-left: auto; margin-right: auto;">
+            <div class="col-12 col-lg-5 margenCarta">
+                <img src="img/eat6.jpg" class="img-fluid" style="display: block; margin-left: auto; margin-right: auto;">
             </div>
         </div>
     </div>
@@ -296,7 +344,8 @@
                                 España<br>
                                 <br>
                                 <i class="fa fa-phone fa-lg"></i><a class="azulClaro" href="tel:651701293"> 651 701 293</a><br>
-                                <i class="fa fa-envelope fa-lg"></i><a class="azulClaro" href="mailto:dodepit@food.net"> dodepit@food.net</a>
+                                <i class="fa fa-envelope fa-lg"></i><a class="azulClaro" href="mailto:dodepit@food.net">
+                                    dodepit@food.net</a>
                             </div>
                         </div>
                     </div>

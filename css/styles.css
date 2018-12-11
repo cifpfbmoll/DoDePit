@@ -18,32 +18,25 @@ h1 {
     font-size: 36px;
 }
 
+h6 {
+    color: black;
+}
+
 /*Rows y cols*/
 .row-header{
     margin:0px auto;
     padding:0px;
 }
 
-h6 {
-    color: black;
-}
-
 .row-content {
     margin:0px auto;
     padding: 20px 0px 20px 0px;
-    border-bottom: 1px ridge;
     /*min-height:400px;*/
-}
-
-.noRaya {
-    
-    border-bottom: none;
 }
 
 .margenCol {
     padding: 0px;
 }
-
 
 /*Helpers generales*/
 .amarillo { /*cambiar*/
@@ -92,7 +85,6 @@ h6 {
     border-radius: 12px;
     color:#fbf9f5;
     padding: 15px 0 15px 0;
-
 }
 
 /*Paleta quitar*/
@@ -144,8 +136,8 @@ button.navbar-toggler {
 }
 
 #fondoJumboHome {
-    background-image: url("../img/loc1.jpg");
-	background-position: left top;
+    background-image: url("../img/3.jpg");
+	background-position: bottom right;
 }
 
 #fondoJumboMenu {
@@ -153,12 +145,11 @@ button.navbar-toggler {
 }
 
 #fondoJumboBeber {
-    background-image: url("../img/drink4.jpg");
+    background-image: url("../img/drink7.jpg");
 }
 
 #fondoJumboEvent {
-    background-image: url("../img/ev7.jpg");
-	background-position: left left;
+    background-image: url("../img/ev8.jpg");
 }
 
 #fondoJumboHora {
@@ -312,19 +303,45 @@ figure {
     .rowEstrecha {
         margin: 4vw 3vw 4vw 3vw;
     }
+
+    .margenCarta {
+        margin-bottom: 15px;
+    }
+
+    .noPadding {
+        padding:0;
+    }
+
+    #fondoJumboHome {
+        background-image: url("../img/loc1.jpg");
+        background-position: left top;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .rowEstrecha {
-        margin: 4vw 4vw 4vw 4vw;
+        margin: 4vw 3vw 4vw 3vw;
     }
-} 
+
+    .margenCarta {
+        margin-bottom: 15px;
+    }
+    #fondoJumboHome {
+        background-image: url("../img/bigbar.jpg");
+        background-position: center right;
+    }
+}
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .rowEstrecha {
-        margin: 4vw 6vw 4vw 6vw;
+        margin: 4vw 4vw 4vw 4vw;
+    }
+
+    .margenCarta {
+        margin-bottom: 15px;
     }
 }
 
@@ -337,7 +354,7 @@ figure {
     */
 
     .rowEstrecha {
-        margin: 4vw 10vw 4vw 10vw;
+        margin: 4vw 9vw 4vw 9vw;
     }
 
     #divHorarioFoot {
