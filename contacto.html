@@ -34,10 +34,16 @@
     <!--Type.js-->
     <script type="text/javascript" src="https://cdn.bootcss.com/typed.js/1.1.4/typed.min.js"></script>
 
+    <style>/*
+        .navbar {
+            background-color: #ec008c;
+            color: white;
+        }*/
+    </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-md">
+    <nav class="navbar navbar-expand-md navbar-dark">
         <!--md lg-->
         <div class="container-fluid">
             <a class="navbar-brand mr-auto" href="index.html"><img src="img/logo2.png" height="50" width="50"></a>
@@ -58,25 +64,25 @@
     </nav>
 
     <!--Barra fija bottom-->
-    <nav class="navbar navbar-dark navbar-expand-sm fixed-bottom">
+    <nav class="navbar navbar-dark fixed-bottom">
         <div class="container-fluid">
-            <ul class="nav navbar-nav" style="flex-direction: row;">
+            <ul class="nav">
                 <!--quitar-->
-                <li style="margin-right:25px"><a class="mr-auto" href="index.html"><img src="img/logo2.png" height="30"
+                <li style="margin-right:25px"><a href="index.html"><img src="img/logo2.png" height="30"
                             width="30"></a>
                     <!--Puede ser span class="fa fa-phone"-->
                 </li>
-                <li style="margin-right:25px"><a class="mr-auto" href="#">
-                        <i class="fa fa-arrow-up fa-2x textoBlanco"></i></a></li>
+                <li><a href="#">
+                        <i class="fa fa-arrow-up fa-2x text-white"></i></a></li>
             </ul>
-            <ul class="nav navbar-nav navbar-right" style="flex-direction: row;">
+            <ul class="nav navbar-right">
                 <!--quitar-->
-                <li style="margin-right:25px"><a class="mr-auto" href="tel:630037625">
-                        <i class="fa fa-phone fa-2x textoBlanco"></i></a>
+                <li style="margin-right:30px"><a href="tel:630037625">
+                        <i class="fa fa-phone fa-2x text-white"></i></a>
                     <!--Puede ser span class="fa fa-phone"-->
                 </li>
-                <li style="margin-right:25px"><a class="mr-auto" href="#">
-                        <i class="fa fa-map-marker fa-2x textoBlanco" id="myBtn"></i></a>
+                <li><a href="#">
+                        <i class="fa fa-map-marker fa-2x text-white" id="myBtn"></i></a>
                 </li>
             </ul>
         </div>
