@@ -24,6 +24,10 @@ h1 {
     padding:0px;
 }
 
+h6 {
+    color: black;
+}
+
 .row-content {
     margin:0px auto;
     padding: 20px 0px 20px 0px;
@@ -46,6 +50,15 @@ h1 {
     color: #51bdcb;
 }
 
+.azulClaro { /*cambiar*/
+    color: #51bdcb;
+}
+
+.azulClaro:hover { /*cambiar*/
+    color: #ec008c;
+    text-decoration: none;
+}
+
 .textoBlanco {
     color:#fbf9f5;
 }
@@ -61,7 +74,7 @@ h1 {
 
 .ovalBlue {
     border-style: dashed;
-    border-width: 2px;
+    border-width: 3px;
     border-color: #51bdcb;
     padding: 15px 15px 15px 15px;
     border-radius: 12px;
@@ -69,6 +82,17 @@ h1 {
 
 .padCinco {
     padding: 5px;
+}
+
+.blueCard {
+    background-color: #052a48;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #052a48;
+    border-radius: 12px;
+    color:#fbf9f5;
+    padding: 15px 0 15px 0;
+
 }
 
 /*Paleta quitar*/
@@ -199,7 +223,7 @@ table {
     border-bottom: 1px solid #dee2e6;
 }
 
-.panel-group, .oval { /* separar oval */
+.panel-group, .oval { /* separar oval */ /*modificar margin, passarlo a media queries*/
     border-style: dashed;
     border-width: 3px;
     border-color: #51bdcb;
@@ -225,6 +249,18 @@ address{
     margin:0px auto;
     padding: 20px 0px 0px 0px;
 }
+
+/*SlideShow*/
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption {
+    background-color:black; 
+    opacity:0.7;
+}
+/*---------*/
 
 /*Parallax*/
 figure {
@@ -268,24 +304,42 @@ figure {
   -moz-transform:rotate(-6deg);
 }
 
-@media screen and (min-width: 671px) {
-    #pegatina {/*quitar*/
-        margin-left: -40px;
+@media screen and (max-width: 600px) {
+    #colSrperro {
+        padding: 8vw;    
     }
 
     .rowEstrecha {
-        margin: 4vw 10vw 4vw 10vw;
+        margin: 4vw 3vw 4vw 3vw;
     }
 }
 
-@media screen and (max-width: 670px) {
-    #colSrperro {
-        padding: 8vw;    
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .rowEstrecha {
+        margin: 4vw 4vw 4vw 4vw;
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .rowEstrecha {
+        margin: 4vw 6vw 4vw 6vw;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    /*quitar?
+    #pegatina {
+        margin-left: -40px;
+    }
+    */
+
+    .rowEstrecha {
+        margin: 4vw 10vw 4vw 10vw;
+    }
+
     #divHorarioFoot {
         padding-bottom: 2em;
     }
@@ -304,8 +358,6 @@ figure {
 }
 
 /*SlideShow*/
-
-/*1*/
 .carousel-inner img {
     width: 100%;
     height: 100%;
@@ -315,5 +367,4 @@ figure {
     background-color:black; 
     opacity:0.7;
 }
-
-/*2*/
+/*---------*/
