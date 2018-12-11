@@ -1,1 +1,1 @@
-## https://gitcdn.xyz/repo/iesfbmoll/DoDePit/master/index.html?token=Ae3ukMh3c-LLxfwcjohp_7wV2Ltg_Viyks5cF8TewA==
+## https://gitcdn.xyz/repo/iesfbmoll/DoDePit/master/index.html
