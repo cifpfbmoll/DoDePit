@@ -1,4 +1,4 @@
-var next = false;
+var next = false;/*quitar*/
 /*Parallax gianlucaguarini*/
 var p = new Parallax('.parallax', {
     offsetYBounds: 50,
