@@ -2,15 +2,13 @@
 <html lang="es">
 
 <head>
-    <title>Do de Pit</title>
-    <!-- Required meta tags always come first -->
+    <title>Conciertoa - Do de Pit</title>
     <meta charset="utf-8">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/logo3.png">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <!--
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    -->
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
@@ -34,11 +32,27 @@
     <!--Type.js-->
     <script type="text/javascript" src="https://cdn.bootcss.com/typed.js/1.1.4/typed.min.js"></script>
 
+    <!--Parallax-->
+    <script src="https://rawgit.com/GianlucaGuarini/parallax/master/dist/Parallax.js"></script>
+
+    <!--js file-->
+    <script src="js/js.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            /*Typed.js*/
+            $("#write1").typed({
+                strings: ["Conciertos"],
+                showCursor: false,
+                typeSpeed: 200
+            });
+        });
+    </script>
+
 </head>
 
 <body>
     <nav class="navbar navbar-dark navbar-expand-md">
-        <!--md lg-->
         <div class="container-fluid">
             <a class="navbar-brand mr-auto" href="index.html"><img src="img/logo2.png" height="50" width="50"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
@@ -102,7 +116,8 @@
         <div class="row align-items-center row-content noRaya">
             <div class="col-12 col-md-8">
                 <h2>Elit dignissim ultricies... <i class="fa fa-music" style="color:#51bdcb;"></i></h2>
-                <p class=" text-justify">Lorem ipsum dolor sit amet consectetur adipiscing elit dignissim ultricies, nisl sodales cras purus
+                <p class=" text-justify">Lorem ipsum dolor sit amet consectetur adipiscing elit dignissim ultricies,
+                    nisl sodales cras purus
                     fusce nascetur diam massa pharetra, imperdiet nostra ultrices vitae eros fames id hac. Nunc ad
                     gravida vulputate ut nascetur eleifend montes pellentesque eget egestas erat, vestibulum aliquet
                     tristique sociosqu praesent faucibus porta nullam non rhoncus dignissim, primis platea mattis
@@ -119,7 +134,7 @@
 
         <!-- Carousel container -->
         <div class="row rowEstrecha row-content noRaya">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 margenCarta">
                 <!-- Carousel container -->
                 <h4>Conciertos</h4>
                 <!--data-ride for automatic carousel, data-interval for timing-->
@@ -245,7 +260,6 @@
 
     <!--Parallax gianlucaguarini-->
     <figure style="position: relative; height: 300px; overflow: hidden;">
-        <!--data-center es lugar de la img-->
         <img class="parallax" src="img/ev4.jpg" />
     </figure>
 
@@ -275,7 +289,8 @@
                                 España<br>
                                 <br>
                                 <i class="fa fa-phone fa-lg"></i><a class="azulClaro" href="tel:651701293"> 651 701 293</a><br>
-                                <i class="fa fa-envelope fa-lg"></i><a class="azulClaro" href="mailto:dodepit@food.net"> dodepit@food.net</a>
+                                <i class="fa fa-envelope fa-lg"></i><a class="azulClaro" href="mailto:dodepit@food.net">
+                                    dodepit@food.net</a>
                             </div>
                         </div>
                     </div>
@@ -298,20 +313,6 @@
             </div>
         </div>
     </footer>
-
-    <script src="https://rawgit.com/GianlucaGuarini/parallax/master/dist/Parallax.js"></script>
-    <script src="js/js.js"></script>
-    <script>
-        $(document).ready(function () {
-            /*Typed.js*/
-            $("#write1").typed({
-                strings: ["Conciertos"],
-                showCursor: false,
-                typeSpeed: 200
-
-            });
-        });
-    </script>
 </body>
 
 </html>

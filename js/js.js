@@ -1,13 +1,12 @@
-var next = false;/*quitar*/
-/*Parallax gianlucaguarini*/
-var p = new Parallax('.parallax', {
-    offsetYBounds: 50,
-    intensity: 50,
-    center: 0.9,
-    safeHeight: 0.15
-}).init();
-
 $(document).ready(function () {
+    /*Parallax gianlucaguarini*/
+    var p = new Parallax('.parallax', {
+        offsetYBounds: 50,
+        intensity: 50,
+        center: 0.9,
+        safeHeight: 0.15
+    }).init();
+
     /*Modal*/
     $("#myBtn").click(function () {
         $("#myModal").modal();

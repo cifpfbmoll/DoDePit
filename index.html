@@ -3,14 +3,11 @@
 
 <head>
     <title>Do de Pit</title>
-    <!-- Required meta tags always come first -->
     <meta charset="utf-8">
-
+    <link rel="icon" type="image/png" sizes="32x32" href="img/logo3.png">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <!--
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    -->
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
@@ -26,24 +23,34 @@
     <!--CSS file-->
     <link href="css/styles.css" rel="stylesheet">
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <!-- jQuery, Popper.js, Bootstrap js. -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
     <!--Type.js-->
     <script type="text/javascript" src="https://cdn.bootcss.com/typed.js/1.1.4/typed.min.js"></script>
-    <style>
-        /*quitar
-        .navbar-collapse {
-             flex-grow:0;
-        }*/
-    </style>
+
+    <!--Parallax-->
+    <script src="https://rawgit.com/GianlucaGuarini/parallax/master/dist/Parallax.js"></script>
+
+    <!--js file-->
+    <script src="js/js.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            /*Typed.js*/
+            $("#write1").typed({
+                strings: ["Do de Pit"],
+                showCursor: false,
+                typeSpeed: 200
+            });
+        });
+    </script>
 </head>
 
 <body>
     <nav class="navbar navbar-dark navbar-expand-md">
-        <!--md lg-->
         <div class="container-fluid">
             <a class="navbar-brand mr-auto" href="#"><img src="img/logo2.png" height="50" width="50"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
@@ -97,7 +104,6 @@
 
     <div class="container">
         <div class="row row-content">
-            <!--QuitR NO Ry-->
             <div id="jumbo1" class="col-12 align-self-center">
                 <h1 id="write1" class="text-center"></h1>
             </div>
@@ -113,7 +119,6 @@
 
         <!--Parallax gianlucaguarini-->
         <figure>
-            <!--data-center es lugar de la img-->
             <img class="parallax" src="img/ev1.jpg" />
         </figure>
 
@@ -257,19 +262,6 @@
             </div>
         </div>
     </footer>
-
-    <script src="https://rawgit.com/GianlucaGuarini/parallax/master/dist/Parallax.js"></script>
-    <script src="js/js.js"></script>
-    <script>
-        $(document).ready(function () {
-            /*Typed.js*/
-            $("#write1").typed({
-                strings: ["Do de Pit"],
-                showCursor: false,
-                typeSpeed: 200
-            });
-        });
-    </script>
 </body>
 
 </html>
